@@ -1,0 +1,24 @@
+#ifndef AMPTGUI_X_STATUS_H
+#define AMPTGUI_X_STATUS_H
+
+#include <QString>
+
+typedef qint8 AmptGUI_X_Status;
+
+#define NO_ERROR  0
+#define ERROR_FAILED_CONVERTING_HEXSTRING    -1
+#define ERROR_CREATING_DIRECTORY             -2
+#define ERROR_OPENING_LOGFILE                -3
+#define ERROR_OPENING_CONFIGURATIONFILE      -4
+#define ERROR_OPENING_PBFILE                 -5
+#define ERROR_INVALID_HEX_DIGIT              -6
+#define ERROR_UNEXPECTED_NULL_PTR            -7
+#define ERROR_INCORRECT_MAC_STRING_LENGTH    -8
+#define ERROR_MALLOC_FAILED                  -9
+#define ERROR_UNEXPECTED_MEMORY_ALLOCATION   -10
+#define ERROR_CONVERSION_FAILED              -11
+#define ERROR_INCORRECT_VERSION_SUFFIX_STRING_LENGTH -12
+#define ERROR_INCORRECT_AES_STRING_LENGTH    -13
+
+
+#endif // AMPTGUI_X_STATUS_H
